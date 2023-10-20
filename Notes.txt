@@ -1,1 +1,22 @@
-comparator vs comparable 
+# comparator vs comparable :
+ implementing comparable interface we can only compare objects by only one property
+ for every property we can implement comparator interface in new class and compare
+ objects according to that property
+
+# == and equals()
+ equals method present in Object class uses == for comparing references of objects
+ String class overrides equals() method and checks for value
+
+# HashMap :
+HashMap <String,Integer> map = new HashMap();
+map.put("physics",90);
+
+when hashmap is generated 0 to 15 buckets(table) get created
+node are located between 0 to 15 till 12 then again new 16 bucket get allocated
+every node contain hash, key, value, next
+first hash is generate using key then hash & (n-1) we get bucket number
+if we get same bucket number then it will check if keys are same and will change key
+if keys are not same then node will get linked to next and linked list will be formed
+upto a threshold value linked list is allowed after that it will be converted to b-tree
+
+if key is null then it will get position at 0
