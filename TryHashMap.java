@@ -1,6 +1,7 @@
 import java.util.*;
 public class TryHashMap {
     public static void main(String[] var){
+
         HashMap<String,Integer> friends = new HashMap<>();
         friends.put("omkar",24);
         friends.put("rajan",24);
