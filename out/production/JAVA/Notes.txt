@@ -7,9 +7,12 @@
  equals method present in Object class uses == for comparing references of objects
  String class overrides equals() method and checks for value
 
+# from Java 8 interface can have method implementations using static and default
+
 # HashMap :
 HashMap <String,Integer> map = new HashMap();
 map.put("physics",90);
+
 
 when hashmap is generated 0 to 15 buckets(table) get created
 node are located between 0 to 15 till 12 then again new 16 bucket get allocated
@@ -20,3 +23,23 @@ if keys are not same then node will get linked to next and linked list will be f
 upto a threshold value linked list is allowed after that it will be converted to b-tree
 
 if key is null then it will get position at 0
+
+Hashmap are not thread safe
+concurrent HashMap were introduced for thread safety
+Hashmap are build using array and linked list internally
+hashmap cannot have duplicate key but can have duplicate values
+No limit for size of HashMap
+
+Collections (interface)
+implements iterable interface
+Collection framework is implemented by
+List, Set interfaces
+list is sequential and indexed
+while set and map are not
+List is implemented by ArrayList, LinkedList, Vector classes
+vector was present before collection in java
+ListIterator can be used to iterate list in both direction forward and backward
+Set is implemented by HashSet class and SortedSet interface
+TreeSet class implements SortedSet interface which is sequential
+
+Map interface is also part of collection framework

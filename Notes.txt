@@ -33,10 +33,13 @@ No limit for size of HashMap
 Collections (interface)
 implements iterable interface
 Collection framework is implemented by
-List, Set, Map interfaces
+List, Set interfaces
 list is sequential and indexed
 while set and map are not
 List is implemented by ArrayList, LinkedList, Vector classes
 vector was present before collection in java
+ListIterator can be used to iterate list in both direction forward and backward
 Set is implemented by HashSet class and SortedSet interface
 TreeSet class implements SortedSet interface which is sequential
+
+Map interface is also part of collection framework

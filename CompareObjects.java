@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.function.Predicate;
 
 public class CompareObjects {
 
@@ -17,6 +18,9 @@ public class CompareObjects {
         System.out.println(pp);
         Collections.sort(pp,new CompareByName());
         System.out.println(pp);
+        pp.sort(new CompareByName());
+        System.out.println(pp);
+
     }
 }
 class Person implements Comparable<Person>{
