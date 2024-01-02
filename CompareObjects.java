@@ -14,10 +14,12 @@ public class CompareObjects {
         pp.add(p2);
         pp.add(p3);
         System.out.println(pp);
-        Collections.sort(pp);
+        Collections.sort(pp);// sorts by age as comparable is implemented
         System.out.println(pp);
+        // sorts by name as it implements comparator
         Collections.sort(pp,new CompareByName());
         System.out.println(pp);
+        // sorts by name as it implements comparator
         pp.sort(new CompareByName());
         System.out.println(pp);
 
