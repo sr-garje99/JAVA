@@ -10,7 +10,7 @@ public class StreamApi {
         city.add("delhi");
         city.add("latur");
 
-        Comparator<? super T> comparator = ;
+        // Comparator<? super T> comparator = ;
         long count = city.stream().count();
 
     }
